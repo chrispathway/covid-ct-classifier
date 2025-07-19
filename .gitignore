@@ -1,0 +1,6 @@
+venv*/
+*.pyc
+train/
+valid/
+test/
+
