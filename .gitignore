@@ -1,6 +1,55 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv*/
-*.pyc
+env*/
+.venv/
+venv310/
+
+# Jupyter checkpoints & outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# PyCharm
+*.iml
+*.ipr
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Data folders (heavy image data)
 train/
 valid/
 test/
+CT\ Scans\ for\ COVID-19/      # raw CT images
 
+# Miscellaneous
+*.csv
+*.h5
+*.pt
+*.pth
