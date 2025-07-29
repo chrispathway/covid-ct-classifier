@@ -53,3 +53,13 @@ CT\ Scans\ for\ COVID-19/      # raw CT images
 *.h5
 *.pt
 *.pth
+
+venv/
+.venv/
+.ipynb_checkpoints/
+data/
+train/
+valid/
+test/
+*.pth
+*.pt
