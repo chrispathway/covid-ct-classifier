@@ -1,0 +1,12 @@
+# Python 3.11. Install with: pip install -r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.4.6
+matplotlib==3.11.2
+pillow==12.3.0
+
+# Notebook + dataset download
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.1
+kaggle==2.2.4

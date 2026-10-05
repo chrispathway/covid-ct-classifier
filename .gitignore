@@ -1,65 +1,29 @@
 # macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
 ._*
 
-# Windows
-Thumbs.db
-ehthumbs.db
-
-# Python bytecode & caches
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Virtual environments
-venv*/
-env*/
 .venv/
-venv310/
+venv*/
 
-# Jupyter checkpoints & outputs
+# Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
-*.log
 
-# IDE/editor folders
+# Editors
 .vscode/
 .idea/
-*.sublime-workspace
-*.sublime-project
 
-# PyCharm
-*.iml
-*.ipr
-.idea/
-
-# Python packaging
-*.egg-info/
-dist/
-build/
-
-# Data folders (heavy image data)
-train/
-valid/
-test/
-CT\ Scans\ for\ COVID-19/      # raw CT images
-
-# Miscellaneous
-*.csv
-*.h5
-*.pt
-*.pth
-
-venv/
-.venv/
-.ipynb_checkpoints/
+# Data (download it from Kaggle, see the notebook)
 data/
-train/
-valid/
-test/
-*.pth
+CT\ Scans/
+CT\ Scans\ for\ COVID-19/
+
+# Training outputs and model weights, except the final trained model
+outputs/*
+!outputs/checkpoints/
+outputs/checkpoints/*
 *.pt
+*.pth
+!outputs/checkpoints/mobilenet_v3_large.pth
