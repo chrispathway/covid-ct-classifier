@@ -53,7 +53,7 @@ The dataset is split per class into roughly 70% training, 15% validation and 15%
 
 ### Model
 
-![Model overview](assets/model.png)
+![Model overview](mobilenetv3-architecture.png)
 
 The backbone is [MobileNetV3-Large](https://arxiv.org/abs/1905.02244), a compact convolutional network designed for mobile devices and pretrained on ImageNet. It turns each 224 x 224 image into a vector of 960 features. Its original 1,000-class head is replaced by a small classifier with one hidden layer of 1,280 units, ReLU, 20% dropout and three outputs. The whole network is fine-tuned, not just the new head, which adds up to 4.2 million trainable parameters.
 
